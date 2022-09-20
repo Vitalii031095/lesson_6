@@ -1,0 +1,156 @@
+/*================ шрифт "lato"( 400,700,900)=================*/
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/lato/Lato-Regular.woff2") format("woff2"), url("../fonts/lato/Lato-Regular.woff") format("woof");
+   display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/lato/Lato-Bold.woff2") format("woff2"), url("../fonts/lato/Lato-Bold.woff") format("woof");
+   display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/lato/Lato-Black.woff2") format("woff2"), url("../fonts/lato/Lato-Black.woff") format("woof");
+   display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+body {
+   background-color: #E5E5E5;
+   font-family: "Lato";
+   font-weight: 700;
+   font-size: 16px;
+   color: #424551;
+
+}
+
+/* p {
+   text-indent: 10px;
+} */
+
+
+.container {
+   max-width: 810px;
+   /* background-color: blue; */
+   margin: 0 auto;
+
+}
+
+.header {
+   margin-bottom: 60px;
+}
+
+.main {
+   margin-bottom: 24px;
+}
+
+.header__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   margin: 5px 0 92px 0;
+   padding: 5px;
+   background-color: #FFFFFF;
+   color: #1E212C;
+   /* text-shadow: 5px 3px 20px red; */
+}
+
+.header__img {
+   margin-bottom: 60px;
+}
+
+.text-bold {
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+
+.text__regular {
+   font-weight: 400;
+   line-height: 1.6;
+   margin-bottom: 48px;
+}
+
+.text__regular p {
+   margin-bottom: 40px;
+}
+
+.text-center {
+   background: #FFFFFF;
+   padding-left: 59px;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1E212C;
+   margin-bottom: 48px;
+}
+
+.list__title {
+   font-weight: 400;
+   line-height: 1.6;
+   margin-bottom: 24px;
+}
+
+li.item {
+   padding-left: 16px;
+   margin-bottom: 4px;
+   font-weight: 400;
+   line-height: 1.6;
+}
+
+.footer {
+   font-weight: 400;
+   line-height: 1.6;
+   margin-bottom: 60px;
+}
+
+/*========================== пропрацьовую матеріал уроку*/
+
+.circle {
+
+   max-width: 300px;
+   min-height: 250px;
+   margin: 0 auto;
+   background-color: rgba(57, 3, 57, 0.5);
+   border-radius: 50%;
+   box-shadow: 10px 15px 25px 50px red, inset 10px 15px 25px brown;
+   margin-bottom: 85px;
+}
+
+.circle p {
+   text-transform: uppercase;
+   text-align: center;
+   text-shadow: 4px 7px 10px rgba(57, 3, 57, 0.932);
+   color: azure;
+   padding: 120px 5px 0 5px;
+   font-weight: 900;
+}
+
+.container div.opas {
+   opacity: 0.7;
+   margin-bottom: 15px;
+}
+
+.container .opas {
+   opacity: 0;
+}
+
+.opas {
+   opacity: 0.5;
+}
+
+.visibl {
+   visibility: hidden;
+}
+
+/* body{
+   display: none; )))))
+} */
